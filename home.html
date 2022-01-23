@@ -41,8 +41,21 @@
       <div class="overview">
         <div class="product">
           <ul class="list-group">
-            <li class="list-group-item"> <span>quntity</span> <p id="stock"></p></li>
-            <li class="list-group-item"> <span> price </span><p id="price"></p></li>
+            <li class="list-group-item d-flex justify-content-between align-items-start">
+              <div class="ms-2 me-auto">
+                <div class="fw-bold">Quantity avilabile</div>
+                <p id="stock"></p>
+              </div>
+              <span class="badge bg-primary rounded-pill"><p id="stock_que"></p></span>
+            </li>
+
+            <li class="list-group-item d-flex justify-content-between align-items-start">
+              <div class="ms-2 me-auto">
+                <div class="fw-bold">Current Price</div>
+                <p id="cprice"></p>
+              </div>
+              <span class="badge bg-primary rounded-pill"><p id="price"></p></span>
+            </li>
 
           </ul>
         </div>
