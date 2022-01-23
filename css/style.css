@@ -28,7 +28,7 @@
 }
 
 .list_shwd{
-    padding:5px;
+    padding:2px;
     color:black;
     margin:1px;
     border-radius: 12px;
@@ -37,7 +37,7 @@
 
 .list_shwd:hover{
     border-radius: 12px;
-    padding:5px;
+    padding:2px;
     color:black;
     margin:1px;
     box-shadow: 0 0 32px rgba(0, 0, 0, 0.5);
