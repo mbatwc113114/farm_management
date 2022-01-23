@@ -28,10 +28,16 @@
 }
 
 .list_shwd{
-    
+    padding:5px;
+    color:black;
+    margin:1px;
     transition: box-shadow 300ms linear
 }
 
 .list_shwd:hover{
+
+    padding:5px;
+    color:black;
+    margin:1px;
     box-shadow: 0 0 32px rgba(0, 0, 0, 0.5);
 }
