@@ -1,7 +1,22 @@
-*{padding: 2px;}
+*{padding: 0px;}
 
 .overview{
     width:100%;
     background-color: antiquewhite;
     height: 60%;
+}
+.total{
+    width: 50%;
+    background-color: black;
+    color:white;
+    border-radius:12px ;
+    text-align: center;
+}
+
+.product{
+    width: 50%;
+    background-color: rgba(143, 14, 14, 0.623);
+    color:white;
+    border-radius:12px ;
+    text-align: center;
 }
