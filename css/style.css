@@ -1,21 +1,25 @@
 *{padding: 0px;}
 
 .overview{
+    display: flex;
+    align-content: center;
     width:100%;
-    background-color: antiquewhite;
+    background-color: rgba(143, 14, 14, 0.623);
     height: 60%;
 }
 .total{
-    width: 50%;
+    width: 30%;
     background-color: black;
     color:white;
     border-radius:12px ;
     text-align: center;
+    margin: auto;
 }
 
 .product{
-    width: 50%;
-    background-color: rgba(143, 14, 14, 0.623);
+    width: 60%;
+    margin: auto;
+    
     color:white;
     border-radius:12px ;
     text-align: center;
