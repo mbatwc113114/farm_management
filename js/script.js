@@ -9,5 +9,5 @@ function total_amount(){
     const amount =  Number(price.value)*Number(quantity.value);
     console.log(price.value)
     console.log(amount)
-    total.value = amount;
+    net_price.value = amount;
 }
