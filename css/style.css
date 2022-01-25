@@ -50,3 +50,8 @@
     width: 95%;
 }
 
+.title{
+    text-align: center;
+    text-transform: uppercase;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
