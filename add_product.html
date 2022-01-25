@@ -36,7 +36,48 @@
 
       <!-- navbar-end -->
       
-      <h1>add product</h1>
+      <!-- form -->
+
+      <form class="row g-3">
+        <div class="col-md-6">
+          <label for="price" class="form-label">Price</label>
+          <input type="text" class="form-control" id="price" placeholder="price per 25 kg">
+        </div>
+        <div class="col-md-6">
+          <label for="quantity" class="form-label">quantity</label>
+          <input type="number" class="form-control" id="quantity">
+        </div>
+        <div class="col-12">
+          <label for="net_price" class="form-label">Total</label>
+          <input type="number" class="form-control" id="net_price" placeholder="automatic calculated">
+        </div>
+        <div class="col-12">
+          <label for="labour_cost" class="form-label">labour cost</label>
+          <input type="number" class="form-control" id="inputAddress2" placeholder="cost in rs">
+        </div>
+        <div class="col-md-6">
+          <label for="date" class="form-label">Date</label>
+          <input type="date" class="form-control" id="date">
+        </div>
+        <div class="col-md-4">
+          <label for="product" class="form-label">Prouduct</label>
+          <select id="product" class="form-select">
+            <option selected>Choose...</option>
+            <option>Tamato</option>
+            <option>Bottle ground</option>
+            <option>Better ground</option>
+
+          </select>
+        </div>
+        
+        <div class="col-12">
+          <button type="submit" class="btn btn-primary" id="btn_submit">Sign in</button>
+        </div>
+      </form>
+
+
+      <!-- ffform -->
+
 
 
     <script src="js/script.js"></script>
