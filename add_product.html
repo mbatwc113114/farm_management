@@ -43,9 +43,9 @@
      <h1 class="title">Add Product</h1>
       <form class="row g-3">
         <label for="price" class="form-label">price</label>
-        <select id="price" class="form-select">
-          <option selected>Choose...</option>
-          <option>100</option>
+        <select id="price" class="form-select" onchange="total_amount()">
+          <option selected>100</option>
+          
           <option>150</option>
           <option>200</option>
           <option>300</option>
@@ -63,8 +63,28 @@
         </select>
         
         <div class="col-md-6">
-          <label for="quantity" class="form-label">quantity</label>
-          <input type="number" class="form-control" id="quantity" required>
+         <select name="quantity" id="quantity" onchange="total_amount()">
+          <option selected>1</option>
+          <option >2</option>
+          <option >3</option>
+          <option >4</option>
+          <option >5</option>
+          <option >10</option>
+          <option >15</option>
+          <option >20</option>
+          <option >25</option>
+          <option >30</option>
+          <option >35</option>
+          <option >40</option>
+          <option >45</option>
+          <option >50</option>
+          <option >60</option>
+          <option >70</option>
+          <option >80</option>
+          <option >90</option>
+          <option >100</option>
+         </select>
+
         </div>
         <div class="col-12">
           <label for="net_price" class="form-label">Total</label>
