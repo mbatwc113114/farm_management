@@ -44,5 +44,9 @@
 }
 
 .form_box{
-    
+    margin: auto;
+    padding: 9px;
+    background-color: burlywood;
+    width: 90%;
 }
+
