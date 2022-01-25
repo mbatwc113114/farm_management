@@ -6,7 +6,7 @@ var quantity = document.getElementById("quantity")
 var total = document.getElementById("total")
 
 function total_amount(){
-    const amount =  Number(price.value)*Number(quantity);
+    const amount =  Number(price.value)*Number(quantity.value);
     console.log(price.value)
     console.log(amount)
     total.innerText = amount;
