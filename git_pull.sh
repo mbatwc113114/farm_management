@@ -1,5 +1,4 @@
 while true;
 do
-{
-    git pull
-}
+  git pull;
+done
